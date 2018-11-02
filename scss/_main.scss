@@ -69,7 +69,7 @@ section {
     }
 
     span:nth-child(odd) {
-       // text-decoration: underline;
+        // text-decoration: underline;
         border-bottom: 1px solid rgb(254, 254, 254);
     }
 
@@ -117,7 +117,7 @@ main {
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
-
+    min-width: 230px;
     li:nth-last-child(1) {
         color: rgb(0, 0, 86);
         padding-top: 15px;
@@ -166,11 +166,13 @@ main {
 footer {
     min-height: 100px;
     background-color: #202320;
+
     span {
         color: rgb(101, 101, 101);
         font-family: SFUI Display;
         font-size: 14px;
-        a{
+
+        a {
             text-decoration: none;
             color: rgb(101, 101, 101);
         }
@@ -183,13 +185,15 @@ h1 {
     line-height: 39px;
     text-transform: uppercase;
 }
-h2{
+
+h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 39px;
     text-transform: uppercase;
 }
-h3{
+
+h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 39px;

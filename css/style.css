@@ -365,7 +365,8 @@ main {
   color: #515151;
   font-size: 18px;
   font-weight: 700;
-  line-height: 27px; }
+  line-height: 27px;
+  min-width: 230px; }
   .item_text nav li:nth-last-child(1) {
     color: #000056;
     padding-top: 15px;
