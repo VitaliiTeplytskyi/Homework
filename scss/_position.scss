@@ -43,11 +43,6 @@ header .content {
     text-align: right;
 }
 
-section .content {
-    min-height: 30px;
-    display: flex;
-    align-items: center;
-}
 
 main .content {
     padding: 50px 30px 99px 30px;
@@ -55,6 +50,10 @@ main .content {
     flex-direction: column;
     justify-content: center;
 }
+section .content {
+    padding: 0 30px;
+}
+
 
 .main__goods {
     text-align: center;

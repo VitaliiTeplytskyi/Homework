@@ -177,15 +177,6 @@ header .content {
   max-width: 180px;
   text-align: right; }
 
-section .content {
-  min-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
 main .content {
   padding: 50px 30px 99px 30px;
   display: -webkit-box;
@@ -198,6 +189,9 @@ main .content {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+section .content {
+  padding: 0 30px; }
 
 .main__goods {
   text-align: center;
@@ -327,7 +321,7 @@ header {
   background: url(../img/phone-call.png); }
 
 section {
-  min-height: 30px;
+  max-height: 30px;
   background-color: #000056; }
   section nav {
     font-size: 12px;
